@@ -1,0 +1,31 @@
+Wymagania użytkownika:
+
+Użytkownik ma możliwość wprowadzenia loginu oraz hasła i zalogowania się.
+Aplikacja ma możliwość obsługi w wersji mobilnej jak i zwykłej.
+Użytkownik może w łatwy oraz szybki sposób tworzyć nowe tematy i posty.
+Użytkownik ma dostęp do podejrzenia funkcjonalności forum.
+Użytkownik ma możliwość konfiguracji podstawowego zarządzania kontem.
+
+Wymagania systemowe:
+
+Login oraz hasło muszą spełniać podstawowe wymagania bezpieczeństwa określone przez regex.
+Proces logowania może przejść tylko użytkownik posiadający konto. 
+W trakcie procesu logowania należy zabezpieczyć SQL injection.
+
+Wersja mobilna dostosowana do urządzeń mobilnych, 
+aby prawidłowo wyświetlała się nie tylko na telefonach, 
+ale także mac + iPad, dodatkowo prawidłowa obsługa przeglądarki 
+Safari oraz resize między wersja PC, a laptop.
+
+Możliwość tworzenia tematów poprzez umieszczenie rekordu w bazie danych. 
+Kategorie na stronie będą pobierane z bazy danych i wyświetlane poprzez 
+replikowanie kodu HTML przy użyciu pętli for.
+
+Możliwość wypowiadania się w tematach wykorzystując do tego posty. 
+Post zbudowany jest z treści (po prawej) i autora (po lewej).
+
+
+Model przyrostowy ponieważ ten model idealnie nadaje się do pracy 
+nad tego rodzaju projektami gdzie klient może mieć chęć często dokonywać należnych 
+poprawek w celu lepszego dopasowania do zamierzeń projektu. Model przyrostowy pozwoli na szybsze oraz 
+mniej kosztowne dokonywanie zmian w projekcie
